@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/dante-alighieri/the-divine-comedy</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/dante-alighieri/the-divine-comedy/henry-wadsworth-longfellow</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<meta property="se:revision-number">0</meta>
@@ -32,8 +32,8 @@
 		<meta property="file-as" refines="#title">Divine Comedy, The</meta>
 		<dc:subject id="subject-1">Epic poetry, Italian -- Translations into English</dc:subject>
 		<dc:subject id="subject-2">Italian poetry -- To 1400 -- Translations into English</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/8800</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/8800</meta>
+		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/1004</meta>
+		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/1004</meta>
 		<meta property="se:subject">TAG</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
@@ -41,27 +41,33 @@
 			LONGDESCRIPTION
 		]]></meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>en-US</dc:language>
-		<dc:source>https://www.gutenberg.org/ebooks/8800</dc:source>
-		<dc:source>https://books.google.com/books?id=oL8vAQAAMAAJ</dc:source>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://www.gutenberg.org/ebooks/1004</dc:source>
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Divine_Comedy</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/dante-alighieri_the-divine-comedy</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/dante-alighieri_the-divine-comedy_henry-wadsworth-longfellow</meta>
 		<dc:creator id="author">Dante Alighieri</dc:creator>
 		<meta property="file-as" refines="#author">AUTHORSORT</meta>
 		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Dante_Alighieri</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78095495</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="translator">Henry Wadsworth Longfellow</dc:contributor>
+		<meta property="file-as" refines="#translator">TRANSLATORSORT</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Henry_Wadsworth_Longfellow</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n79056429</meta>
+		<meta property="display-seq" refines="#translator">1</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">COVERARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
+		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
 		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>

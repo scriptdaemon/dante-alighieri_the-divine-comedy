@@ -39,7 +39,7 @@
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"> LONGDESCRIPTION </meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>en-GB</dc:language>
+		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1004</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydant01dant</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydant02dant</dc:source>

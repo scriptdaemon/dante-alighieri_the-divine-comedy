@@ -40,7 +40,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description"> LONGDESCRIPTION </meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
-		<dc:source>https://www.gutenberg.org/ebooks/1004</dc:source>
+		<dc:source>https://en.wikisource.org/wiki/Divine_Comedy_(Longfellow_1867)</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydant01dant</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydant02dant</dc:source>
 		<dc:source>https://archive.org/details/divinecomedydante03dantrich</dc:source>
@@ -66,9 +66,9 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
+		<dc:contributor id="transcriber-1">EncycloPetey</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">EncycloPetey</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://en.wikisource.org/wiki/User:EncycloPetey</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
 		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>

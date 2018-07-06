@@ -61,10 +61,10 @@
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n79056429</meta>
 		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">Domenico di Michelino</dc:contributor>
-		<meta property="file-as" refines="#artist">di Michelino, Domenico</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Domenico_di_Michelino</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr91029224</meta>
+		<dc:contributor id="artist">Hans Memling</dc:contributor>
+		<meta property="file-as" refines="#artist">Memling, Hans</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Hans_Memling</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50013910</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">EncycloPetey</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">EncycloPetey</meta>
